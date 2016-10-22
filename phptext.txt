@@ -151,8 +151,8 @@ function processMessage($message) {
     if (strpos($text, "/start") === 0) {
       apiRequestJson("sendMessage", array('chat_id' => $chat_id, "text" => "سلام\nبه ربات XO خوش اومدی\nبا این ربات میتونی با دوستات تو تلگرام بازی کنی و لذت ببری ...\nبرای شروع روی دکمه زیر کلیک کن\n, 'reply_markup' => array(
             "inline_keyboard"=>array(
-			    array(array("text"=>"برنامه نویس","url"=>"https://telegram.me/MutePuker")),
-				array(array("text"=>"ربات خود را بسازید","url"=>"https://telegram.me/XOsazBot")),
+			    array(array("text"=>"برنامه نویس","url"=>"https://telegram.me/depmash")),
+				array(array("text"=>"ربات خود را بسازید","url"=>"https://telegram.me/PMRSMACH")),
 			    array(array("text"=>"بازی XO","switch_inline_query"=>md5(date("YMDms"))),array("text"=>"سنگ کاغذ قیچی (به زودی)","callback_data"=>"m"))
 			)
 		)));
