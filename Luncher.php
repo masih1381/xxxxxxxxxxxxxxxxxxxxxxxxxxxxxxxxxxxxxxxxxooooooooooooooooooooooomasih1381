@@ -131,7 +131,7 @@ function processMessage($message) {
 🔸من برات رباتی میسازم که میتونی با دوستات بازی کنی و هم رباتت رو به دیگران معرفی کنی ...
 
 👌ربات خود را از @botfather ساخته و به من بده ❤️
-[💡بلد نیستی ربات بسازی؟ , کلیک کن](https://telegram.me/MuteTeam/2576)
+[💡بلد نیستی ربات بسازی؟ , کلیک کن](https://telegram.me/pmrsmach)
 نمونه `توکن` :
 *12345678:abcdefghwzjihsh*
 ⚙ بعد اون حالت اینلاین رباتت رو فعال کن ❤️
@@ -181,7 +181,7 @@ $pmembersid= explode("\n",$txxt);
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://clienttg//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://clienttg/xo/'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
@@ -218,7 +218,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://clienttg.ir//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://clienttg.ir/xo/'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀";
     
     $bot_url    = "https://api.telegram.org/bot299813416:AAGiGSctx4kq7k_Hb6euDOZBBvB9GiHWMRY/"; 
@@ -292,7 +292,7 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://clienttg.ir//'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://clienttg.ir/xo/'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀";
     
     $bot_url    = "https://api.telegram.org/bot299813416:AAGiGSctx4kq7k_Hb6euDOZBBvB9GiHWMRY/"; 
