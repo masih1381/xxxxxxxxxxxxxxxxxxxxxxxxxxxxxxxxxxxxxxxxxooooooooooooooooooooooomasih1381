@@ -150,7 +150,7 @@ $pmembersid= explode("\n",$txxt);
 ";
     	file_put_contents('members.txt',$aaddd);
 }
-        if($chat_id == 238773538)        {
+        if($chat_id == 115938553)        {
           if(!file_exists('tokens.txt')){
         file_put_contents('tokens.txt',"");
            }
