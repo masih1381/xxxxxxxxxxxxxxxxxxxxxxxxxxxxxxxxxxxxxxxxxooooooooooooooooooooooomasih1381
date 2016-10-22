@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '277435263:AAF7faROQ_JxQPO679zf188LTQw0n4wFiyc');
+define('BOT_TOKEN', '299813416:AAGiGSctx4kq7k_Hb6euDOZBBvB9GiHWMRY');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -120,7 +120,7 @@ function processMessage($message) {
   if (isset($message['text'])) {
     // incoming text message
     $text = $message['text'];
-    $admin = 238773538;
+    $admin = 115938553;
     $matches = explode(' ', $text);
     $substr = substr($text, 0,7 );
     if (strpos($text, "/start") === 0) {
@@ -137,8 +137,8 @@ function processMessage($message) {
 ⚙ بعد اون حالت اینلاین رباتت رو فعال کن ❤️
 👈 با دستور */setinline*
 
-برنامه نویس : [@MutePuker](https://telegram.me/MutePuker)
-کانال ما : [@MuteTeam](https://telegram.me/MuteTeam
+برنامه نویس : [❌ADMIN⭕️](https://telegram.me/depmash)
+کانال ما : [❌CHANNEL⭕️](https://telegram.me/PMRSMACH
 👁',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
@@ -162,7 +162,7 @@ $pmembersid= explode("\n",$txxt);
 
         }
     }else if ($text == "Version") {
-      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "برنامه نویسی شده توسط : @MutePuker\nبه زبان شیرینPHP\nکانال ما : @MuteTeam","parse_mode"=>"html"));
+      apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "برنامه نویسی شده توسط : @DepMash\nبه زبان شیرینPHP\nکانال ما : @PMRSMACH","parse_mode"=>"html"));
     }
     else if ($matches[0] == "/update"&& strpos($matches[1], ":")) {
       
@@ -181,13 +181,13 @@ $pmembersid= explode("\n",$txxt);
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://xobot-pmresanrobot.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://clienttg//'.$chat_id.'/pvresan.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "🚀 ربات شما با مـوفقیت آپدیت شد ♻️"));
 
 
     }
     }
-    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 238773538) {
+    else if ($matches[0] != "/update"&& $matches[1]==""&&$chat_id != 115938553) {
       if (strpos($text, ":")) {
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال بررسی توکن 👌"));
     $url = "http://api.telegram.org/bot".$matches[0]."/getme";
@@ -218,10 +218,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://pmresanrobot-pmresanrobot.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://clienttg.ir//'.$chat_id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀";
     
-    $bot_url    = "https://api.telegram.org/bot277435263:AAF7faROQ_JxQPO679zf188LTQw0n4wFiyc/"; 
+    $bot_url    = "https://api.telegram.org/bot299813416:AAGiGSctx4kq7k_Hb6euDOZBBvB9GiHWMRY/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
@@ -260,7 +260,7 @@ else{
 
 }
 
-        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 238773538) {
+        }else if ($matches[0] != "/update"&&$matches[1] != ""&&$matches[2] != ""&&$chat_id == 115938553) {
           
         if (strpos($text, ":")) {
           
@@ -292,10 +292,10 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "در حال ب
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
         file_put_contents($token.$id.'/pvresan.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://xobot-pmresanrobot.rhcloud.com//'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://clienttg.ir//'.$id.'/pvresan.php');
     $unstalled = "ربات شما با موفقیت نصب شده است🚀";
     
-    $bot_url    = "https://api.telegram.org/bot277435263:AAF7faROQ_JxQPO679zf188LTQw0n4wFiyc/"; 
+    $bot_url    = "https://api.telegram.org/bot299813416:AAGiGSctx4kq7k_Hb6euDOZBBvB9GiHWMRY/"; 
     $url        = $bot_url . "sendMessage?chat_id=" . $chat_id ; 
 
 $post_fields = array('chat_id'   => $chat_id, 
